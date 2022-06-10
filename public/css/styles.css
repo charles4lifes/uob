@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+   }
+   a:hover{
+    text-decoration: none;
+  }
+/* nav section */
+.navbar-brand{
+    padding-right: 15rem;
+}
+.nav-item a{
+padding: 0 10px;
+}
+.open-account a{  
+    color:green;
+    background-color: white;
+    border: 1px solid green;
+    box-sizing: border-box;
+    padding:0 15px;
+    margin-top: 3px;
+}
+.open-account a .nav-link{
+    color: green;
+}
+.open-account a:hover{
+    background-color: green;
+    color: white !important;
+}
+ul li.open-account a{
+    color: green !important;
+}
+ul li.open-account a:hover{
+    color: white !important;
+}
+ul li.open-account a i:hover{
+    color: white !important;
+}
+
+.nav-longin a{
+    border: 1px solid green ;
+    padding:5% 10%;
+    background-color: green;
+    color: white !important ;
+}
+.nav-longin{
+    margin-left: 1rem;
+}
+/* row section */
+.row{
+    margin: 0;
+    padding: 0;
+  }
+/* first-row section */
+.Welcome-col h5{
+    color: rgb(95, 144, 216);
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.Login-col a{
+    color: white !important;
+    background-color: green;
+    padding: 10px 5%;
+    float: right;
+}
+
+/* carousle-first section */
+
+
+/* open-online-account section */
+#open-online-account{
+    margin: 2rem 0 0 5rem;
+    min-height: 380px;
+    width: 80%;
+    background-color: rgb(48, 117, 48);
+}
+#open-online-account H5{
+    color: white;
+    padding: 30px 0 0 17%;
+}
+#open-online-account h6{
+    margin: 5% 0 0 35%;
+    color: white;
+}
